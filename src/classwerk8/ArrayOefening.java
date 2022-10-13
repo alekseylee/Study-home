@@ -83,16 +83,40 @@ public class ArrayOefening {
 
         //oefening 10
 
-        String[] myArray = {"Amsterdam", "Brussel", "London", "Paris", "Madrid", "Brussel",
-                "Amsterdam"};
-//        Arrays.sort(myArray);
-        for (String let : myArray) {
+//        String[] myArray = {"Amsterdam", "Brussel", "London", "Paris", "Madrid", "Brussel",
+//                "Amsterdam"};
+////        Arrays.sort(myArray);
+//        for (String let : myArray) {
+//
+////            System.out.println("\nAfter sorted cities are: ");
+////            for (int i = 0; i < myArray.length; i++) {
+////                System.out.print(myArray[i] + " ");
+////            }
+//            for(int i = 0; i < myArray.length; i++) {
+//            for(int j = i + 1; j < myArray.length; j++) {
+//                if (myArray[i] == myArray[j])
+//                    System.out.print("\nDublicate number: " + myArray[i]);
+//            }
+//        }
+//        }
 
-            System.out.println("\nAfter sorted cities are: ");
-            for (int i = 0; i < myArray.length; i++) {
-                System.out.print(myArray[i] + " ");
-            }
-        }
+
+        //oefening 11
+
+//        int[][] grades = {
+//                {66, 55, 33 ,22, 35},
+//                {56, 50, 34, 25, 45},
+//                {60, 56, 40, 26, 55}
+//        };
+//        System.out.println("\tHarry: " + Arrays.toString(grades[0]));
+//        System.out.println("\tRon: " + Arrays.toString(grades[1]));
+//        System.out.println("\tHermiona: " + Arrays.toString(grades[2]));
+
+        //ofening 12
+
+//        int[][] numbers = {{1, 2, 3}, {4, 5, 6}};
+//        System.out.println("Numbers of 1 massive: " + Arrays.toString(numbers[0]));
+//        System.out.println("Numbers of 2 massive: " + Arrays.toString(numbers[1]));
 
     }
 }
