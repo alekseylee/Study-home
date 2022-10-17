@@ -1,4 +1,4 @@
-package be.intecbrussel.vendingmachine;
+package practice.vendingmachine;
 
 public class Machine {
     private Item[][] items;
