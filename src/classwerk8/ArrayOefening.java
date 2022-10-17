@@ -98,19 +98,19 @@ public class ArrayOefening {
 //                    System.out.print("\nDublicate number: " + myArray[i]);
 //            }
 //        }
-//        }
+//  }
 
 
         //oefening 11
 
-//        int[][] grades = {
-//                {66, 55, 33 ,22, 35},
-//                {56, 50, 34, 25, 45},
-//                {60, 56, 40, 26, 55}
-//        };
-//        System.out.println("\tHarry: " + Arrays.toString(grades[0]));
-//        System.out.println("\tRon: " + Arrays.toString(grades[1]));
-//        System.out.println("\tHermiona: " + Arrays.toString(grades[2]));
+        int[][] grades = {
+                {66, 55, 33 ,22, 35},
+                {56, 50, 34, 25, 45},
+                {60, 56, 40, 26, 55}
+        };
+        System.out.println("\tHarry: " + Arrays.toString(grades[0]));
+        System.out.println("\tRon: " + Arrays.toString(grades[1]));
+        System.out.println("\tHermiona: " + Arrays.toString(grades[2]));
 
         //ofening 12
 
