@@ -1,52 +1,40 @@
 package be.intecbrussel.enumsoefening;
 
-public class Car  {
-    Brand carBrand = Brand.BWM;
-    public void myBrandCar(){
-        switch (carBrand) {
-            case BWM:
-                System.out.println("This car is: " + carBrand);
-                break;
-            case RANGEROVER:
-                System.out.println("This car is: " + carBrand);
-                break;
-            case TOYOTA:
-                System.out.println("This car is: " + carBrand);
-                break;
-            case BUGATTI:
-                System.out.println("This car is: " + carBrand);
-                break;
-        }
-    }
-    Colour colour = Colour.GOLD;
-    //methode
-    public void myChangeColour() {
+public class Car {
+    Colour colour;
 
-        switch (colour) {
+    public Car(Colour colour) {
+        this.colour = colour;
+    }
+    public Car() {
+
+    }
+
+    public void buildCar(Colour col){
+        switch(col) {
             case RED:
-                System.out.println("New car color is " + colour);
-                break;
-            case BLACK:
-                System.out.println("New car color is " + colour);
-                break;
-            case WHITE:
-                System.out.println("New car color is " + colour);
-                break;
-            case GOLD:
-                System.out.println("New car color is " + colour);
+                System.out.println("I build a red car.");
                 break;
             case BLUE:
-                System.out.println("New car color is " + colour);
+                System.out.println("I build a blue car.");
+                break;
+            case WHITE:
+                System.out.println("I build a yellow car.");
+                break;
+            case BLACK:
+                System.out.println("I build a black car.");
+                break;
+            case GOLD:
+                System.out.println("I build a gold car.");
                 break;
             case SILVER:
-                System.out.println("New car color is " + colour);
+                System.out.println("I build a silver car.");
                 break;
+
             default:
-                System.out.println("New car color is " + colour);
+                System.out.println("I don't know which colour I want to build.");
                 break;
         }
     }
-
 }
-
 
