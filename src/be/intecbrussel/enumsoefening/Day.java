@@ -1,4 +1,4 @@
-package be.intecbrussel.classwerk10;
+package be.intecbrussel.enumsoefening;
 
 public enum Day {
 
@@ -11,7 +11,7 @@ public enum Day {
     SUNDAY;
 
     Day() {
-        System.out.println(this.toString());
+        System.out.println("\t" + this.toString());
     }
         public void defaultDay () {
             System.out.println("Default day is Sunday");
