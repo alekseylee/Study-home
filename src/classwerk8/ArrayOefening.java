@@ -103,14 +103,24 @@ public class ArrayOefening {
 
         //oefening 11
 
-        int[][] grades = {
-                {66, 55, 33 ,22, 35},
-                {56, 50, 34, 25, 45},
-                {60, 56, 40, 26, 55}
-        };
-        System.out.println("\tHarry: " + Arrays.toString(grades[0]));
-        System.out.println("\tRon: " + Arrays.toString(grades[1]));
-        System.out.println("\tHermiona: " + Arrays.toString(grades[2]));
+
+//        int[][][] my3D = {
+//                {{3, 9, 7, 6, 2}, {5, 2, 5, 4, 0}, {4, 8, 7, 0, 0}, {9, 8, 1, 8, 6}, {0, 1, 0, 6, 8}},
+//                {{1, 9, 3, 7, 1}, {7, 1, 7, 6, 0}, {5, 8, 3, 8, 1}, {2, 8, 9, 7, 2}, {1, 7, 3, 0, 1}},
+//                {{4, 8, 3, 8, 7}, {8, 9, 7, 7, 5}, {6, 3, 1, 7, 2}, {8, 4, 9, 7, 8}, {7, 8, 0, 3, 2}},
+//                {{7, 0, 4, 6, 1}, {1, 1, 5, 8, 2}, {0, 1, 8, 3, 7}, {4, 9, 4, 7, 2}, {2, 4, 3, 4, 9}},
+//                {{5, 0, 7, 1, 9}, {3, 1, 8, 7, 4}, {8, 7, 9, 2, 0}, {8, 5, 8, 4, 5}, {2, 7, 2, 9, 6}}};
+//
+//        for (int[][] my2D : my3D) {
+//            for (int[] my1D : my2D) {
+//                for (int items : my1D) {
+//                    System.out.print(items + ",");
+//                }
+//                System.out.println("");
+//            }
+//            System.out.println("");
+//        }
+
 
         //ofening 12
 

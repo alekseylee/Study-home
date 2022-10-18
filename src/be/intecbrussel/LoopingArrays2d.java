@@ -18,11 +18,11 @@ public class LoopingArrays2d {
         for (int j = 0; j < grades[2].length; j++ ) {
             System.out.print(" " + grades[2][j]);
         }
-        for (int i = 0; i < grades.length; i++) {
-            for (int j = 0; j < grades[i].length; j++) {
-                System.out.print(grades[i][j]);
-            }
-        }
+//        for (int i = 0; i < grades.length; i++) {
+//            for (int j = 0; j < grades[i].length; j++) {
+//                System.out.print(grades[i][j]);
+//            }
+//        }
 
     }
 }
