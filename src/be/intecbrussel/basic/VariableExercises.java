@@ -1,4 +1,4 @@
-package be.intecbrussel;
+package be.intecbrussel.basic;
 
 public class VariableExercises {
     public static void main(String[] args) {

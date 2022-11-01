@@ -1,4 +1,4 @@
-package be.intecbrussel;
+package be.intecbrussel.basic;
 
 public class Samenvatting3 {
     //oefening 1

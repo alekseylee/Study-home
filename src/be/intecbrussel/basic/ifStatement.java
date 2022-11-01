@@ -1,4 +1,4 @@
-package be.intecbrussel;
+package be.intecbrussel.basic;
 
 public class ifStatement {
     public static void main(String [] args) {

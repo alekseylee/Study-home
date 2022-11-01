@@ -1,4 +1,4 @@
-package be.intecbrussel;
+package be.intecbrussel.basic;
 
 import java.time.*;
 import java.time.temporal.*;

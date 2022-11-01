@@ -1,4 +1,4 @@
-package be.intecbrussel;
+package be.intecbrussel.basic;
 
 public class SamenvattingLOOP {
     //oefening 1
